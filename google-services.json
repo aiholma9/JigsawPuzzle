@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "996042637506",
+    "firebase_url": "https://androidlivewallpaper-56d05.firebaseio.com",
+    "project_id": "androidlivewallpaper-56d05",
+    "storage_bucket": "androidlivewallpaper-56d05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996042637506:android:5a6a66be346d5ec3",
+        "android_client_info": {
+          "package_name": "com.abdul.jigsawpuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996042637506-bj5thiaokc3jmehndsgsb1gdqb181lta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdul.jigsawpuzzle",
+            "certificate_hash": "058ab99d09b3174e066439ee3ec14e1015ca8b34"
+          }
+        },
+        {
+          "client_id": "996042637506-4628nd1akhrgctdh8dp2h8licfpip47b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqzEP7gpuSWU0Mzj30-YimpxGVEzv10zI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996042637506-4628nd1akhrgctdh8dp2h8licfpip47b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996042637506:android:2ef497bb2d44714a",
+        "android_client_info": {
+          "package_name": "com.holmadesigns.androidlivewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996042637506-edmoqb4kv34brnf06nicnb10hcla782g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.holmadesigns.androidlivewallpaper",
+            "certificate_hash": "058ab99d09b3174e066439ee3ec14e1015ca8b34"
+          }
+        },
+        {
+          "client_id": "996042637506-4628nd1akhrgctdh8dp2h8licfpip47b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqzEP7gpuSWU0Mzj30-YimpxGVEzv10zI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996042637506-4628nd1akhrgctdh8dp2h8licfpip47b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

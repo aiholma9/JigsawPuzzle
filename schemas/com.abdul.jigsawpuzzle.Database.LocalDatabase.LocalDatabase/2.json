@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "b4f7d4ba9e10c5f0ac02f424cc0173de",
+    "entities": [
+      {
+        "tableName": "offline",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`imageUrl` TEXT NOT NULL, `categoryId` TEXT NOT NULL, `saveTime` TEXT, `favourite` TEXT NOT NULL, `played` TEXT, PRIMARY KEY(`imageUrl`, `categoryId`))",
+        "fields": [
+          {
+            "fieldPath": "imageUrl",
+            "columnName": "imageUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoryId",
+            "columnName": "categoryId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "saveTime",
+            "columnName": "saveTime",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "favourite",
+            "columnName": "favourite",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "played",
+            "columnName": "played",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "imageUrl",
+            "categoryId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"b4f7d4ba9e10c5f0ac02f424cc0173de\")"
+    ]
+  }
+}
